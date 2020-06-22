@@ -1,0 +1,33 @@
+.left-col {
+    background-color:#003170;
+}
+.right-col {
+    background-color: #77e3de ;
+}
+
+.social-icon {
+    height: 60px;
+    margin: 10px 20px;
+}
+
+.social-icons-container {
+    text-align: center;
+
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #f5979c;
+}

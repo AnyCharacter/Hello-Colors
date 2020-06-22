@@ -1,0 +1,208 @@
+/* font-family: 'Inconsolata', monospace; */
+/* font-family: 'Prata', serif; */
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.left-col,
+.right-col {
+    color: #fff;
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-col {
+    background-color: #003170;
+
+}
+
+.right-col {
+    background-color: #77e3de;
+}
+
+.social-icon {
+    height: 60px;
+    margin: 10px 20px;
+}
+
+.social-icons-container {
+    text-align: center;
+
+}
+
+.scroll {
+    color: #2864b1;
+    text-align: center;
+}
+
+.works-img {
+    position: relative;
+    width: 100%;
+}
+
+.works h4 {
+    position: absolute;
+    z-index: 1;
+    top: -25px;
+}
+
+.works h4.right-aligned {
+    right: 0;
+}
+
+.extra-gutters {
+    padding: 0 60px
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+/* .top-photo {
+    margin: 0px;
+} */
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+h1 {
+    font-size: 150px;
+    font-weight: normal;
+    margin: 0;
+}
+
+h2 {
+    font-size: 100px
+}
+
+.works h2 {
+    color: #41ccc4
+}
+
+.myteam h2 {
+    color: #003170
+}
+
+.contact h2 {
+    color: #f3747b
+}
+
+.myteam h2 {
+    color: #003170
+}
+
+h3 {
+    font-size: 50px;
+}
+
+.works h3 {
+    color: #16736e;
+}
+
+.works {
+    color: #16736e;
+}
+
+.myteam h3 {
+    color: #306fbf
+}
+
+h4 {
+    font-size: 32px;
+    font-style: normal;
+    color: #16736e;
+    background-color: #75e3dd;
+    display: inline-block;
+    margin: 0;
+    padding: 4px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Prata', serif;
+    font-weight: normal;
+}
+
+.works a {
+    letter-spacing: 3px;
+    color: #2ce6dc;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img-margin {
+    margin-bottom: 60px;
+}
+
+footer {
+    background-color: #f5979c;
+    min-height: 220px;
+    background-image: url('../img/socialmedia.svg');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 15px;
+    color: #20c4bb;
+}
+
+.navigation li a {
+    color: #20c4bb;
+    text-decoration: none;
+    font-weight: normal;
+    letter-spacing: normal;
+}
+
+.top-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.myteam h3 {
+    margin: 0 0 50px 0;
+    width: 100%;
+}
+
+nav {
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    font-family: 'Prata', serif;
+    font-size: 22px;
+}
+
+p {
+    line-height: 145%;
+}
